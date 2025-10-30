@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Artist</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/fonts.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <nav class="nav-wrapper">
+                <div class="logo-wrapper">
+                    <span class="logo">xinder</span>
+                </div>
+                <div class="navigation-wrapper">
+                    <ul class="navigation">
+                        <li class="underline-li"><a class="underline" href="#">Explore</a></li>
+                        <li class="underline-li"><a class="underline" href="#">Solutions</a></li>
+                        <li class="underline-li"><a class="underline" href="#">Articles</a></li>
+                        <li class="underline-li"><a class="underline" href="#">Sign In</a></li>
+                        <button class="nav-btn">Join Now</button>
+                    </ul>
+                </div>
+                <img class="hamburger" src="./assets/nav/hamburger-img.png" alt="">
+                <div class="sidebar">
+                    <ul>
+                        <li> <a href="#" class="close-btn">Explore<i class='bx bx-x close'></i></a> </li>
+                        <li> <a href="#">Solutions</a></li>
+                        <li> <a href="#">Articles</a></li>
+                        <li> <a href="#">Sign In</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <section class="home-sec" id="home">
+        <div class="container">
+            <div class="home-wrapper">
+                <div class="home-left-content-wrap">
+                    <h1 class="home-heading">Search the work of the best artists</h1>
+
+                    <form class="home-search-form" action="#" method="get">
+                        <input class="home-search-input" type="text"
+                            placeholder="search for artists, work name, or category" name="search">
+                        <button type="submit" class="home-search-btn">Search</button>
+                    </form>
+                    <div class="home-badges">
+                        <span class="home-badge">Oil Painting</span>
+                        <span class="home-badge">Abstract Art</span>
+                        <span class="home-badge">Sculpture</span>
+                        <span class="home-badge">Art Deco</span>
+                        <span class="home-badge">Pop Art</span>
+                    </div>
+                </div>
+                <div class="home-right-content-wrap">
+                    <div class="home-home-img-wrapper">
+                        <img class="home-img" src="./assets/home/Col.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="logos">
+        <div class="container">
+            <div class="logos-wrapper">
+                <div class="logos-content-wrap">
+                    <div class="logos-content">
+                        <img class="logos-img" src="./assets/logos/logo-1.png" alt="logos">
+                    </div>
+                    <div class="logos-content">
+                        <img class="logos-img" src="./assets/logos/logo-2.png" alt="logos">
+                    </div>
+                    <div class="logos-content">
+                        <img class="logos-img" src="./assets/logos/logo-3.png" alt="logos">
+                    </div>
+                    <div class="logos-content">
+                        <img class="logos-img" src="./assets/logos/logo-4.png" alt="logos">
+                    </div>
+                    <div class="logos-content">
+                        <img class="logos-img" src="./assets/logos/logo-5.png" alt="logos">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="art-catogories">
+        <div class="container">
+            <div class="art-categories-wrapper">
+                <div class="art-heading-wrapper heading-wrapper">
+                    <h2 class="art-head coma-heading">Featured art categories</h2>
+                    <span class="art-view-all">View All Categories <img class="art-view-all-img"
+                            src="./assets/atr-categories/right-arrow.svg" alt=""></span>
+                </div>
+
+                <div class="art-Swiper swiper art-card-wrap">
+                    <div class="swiper-wrapper art-cards">
+                        <div class="swiper-slide art-card">
+                            <img class="art-img" src="./assets/atr-categories/art-img-1.png" alt="art-img-1">
+                            <div class="art-card-content-wrap">
+                                <p class="art-card-desc">Pottery</p>
+                                <span class="art-card-head">Vases Family</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide art-card">
+                            <img class="art-img" src="./assets/atr-categories/art-img-2.png" alt="art-img-2">
+                            <div class="art-card-content-wrap">
+                                <p class="art-card-desc">Oil Painting</p>
+                                <span class="art-card-head">Camel Portrait</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide art-card">
+                            <img class="art-img" src="./assets/atr-categories/art-img-3.png" alt="art-img-3">
+                            <div class="art-card-content-wrap">
+                                <p class="art-card-desc">Abstract Painting</p>
+                                <span class="art-card-head">Euforia </span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide art-card">
+                            <img class="art-img" src="./assets/atr-categories/art-img-4.png" alt="art-img-4">
+                            <div class="art-card-content-wrap">
+                                <p class="art-card-desc">Object Design</p>
+                                <span class="art-card-head">Classic Watch</span>
+                            </div>
+                        </div>
+                        <div class="swiper-slide art-card">
+                            <img class="art-img" src="./assets/atr-categories/art-img-5.png" alt="art-img-5">
+                            <div class="art-card-content-wrap">
+                                <p class="art-card-desc">Sculpture</p>
+                                <span class="art-card-head">White Angel</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </section>
+
+    <section class="masterpice-sec">
+        <div class="container">
+            <div class="masterpice-wrapper">
+                <div class="masterpice-content-wrapper">
+                    <div class="masterpice-heading-wrapper heading-wrapper">
+                        <h2 class="art-head coma-heading">Latest masterpieces</h2>
+                        <span class="art-view-all">Discover More Masterpieces <img class="art-view-all-img"
+                                src="./assets/atr-categories/right-arrow.svg" alt=""></span>
+                    </div>
+
+
+                    <div class="masterpiece-Swiper swiper mas-card-wrap ">
+
+                        <div class="swiper-wrapper">
+
+                            <div class="swiper-slide">
+                                <div class="mas-card promoted">
+                                    <img class="mas-card-img" src="./assets/masterpice/mas-1.png" alt="mas-img-1">
+                                    <span class="tag">Promoted</span>
+                                    <div class="mas-card-content-wrap">
+                                        <img class="profile-img" src="./assets/masterpice/profile/pf-1.png"
+                                            alt="profile-img">
+                                        <div class="mas-pf-conrtent-wrap">
+                                            <span class="mas-card-head">Flower Decorations</span>
+                                            <p class="mas-card-desc">by Melvina Spring</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="mas-card promoted">
+                                    <img class="mas-card-img" src="./assets/masterpice/mas-2.png" alt="mas-img-2">
+                                    <span class="tag-2">Featured</span>
+                                    <div class="mas-card-content-wrap">
+                                        <img class="profile-img" src="./assets/masterpice/profile/pf-2.png"
+                                            alt="profile-img">
+                                        <div class="mas-pf-conrtent-wrap">
+                                            <span class="mas-card-head">Flower Decorations</span>
+                                            <p class="mas-card-desc">by Melvina Spring</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="mas-card">
+                                    <img class="mas-card-img" src="./assets/masterpice/mas-3.png" alt="mas-img-3">
+                                    <div class="mas-card-content-wrap">
+                                        <img class="profile-img" src="./assets/masterpice/profile/pf-3.png"
+                                            alt="profile-img">
+                                        <div class="mas-pf-conrtent-wrap">
+                                            <span class="mas-card-head">Splash </span>
+                                            <p class="mas-card-desc">by Rwanda Melflor</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="mas-card">
+                                    <img class="mas-card-img" src="./assets/masterpice/mas-4.png" alt="mas-img-4">
+                                    <div class="mas-card-content-wrap">
+                                        <img class="profile-img" src="./assets/masterpice/profile/pf-4.png"
+                                            alt="profile-img">
+                                        <div class="mas-pf-conrtent-wrap">
+                                            <span class="mas-card-head">Colorful Face</span>
+                                            <p class="mas-card-desc">by Melvina Spring</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="mas-card">
+                                    <img class="mas-card-img" src="./assets/masterpice/mas-1.png" alt="mas-img-5">
+                                    <div class="mas-card-content-wrap">
+                                        <img class="profile-img" src="./assets/masterpice/profile/pf-5.png"
+                                            alt="profile-img">
+                                        <div class="mas-pf-conrtent-wrap">
+                                            <span class="mas-card-head">Fence Spying</span>
+                                            <p class="mas-card-desc">by Melvina Spring</p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="services">
+        <div class="container">
+            <div class="service-wrapper">
+                <div class="service-content-wrapper">
+                    <div class="service-heading">
+                        <h3 class="coma-heading">Expanding services</h3>
+                    </div>
+                    <div class="service-icon-wrapper">
+                        
+                        <div class="service-icon">
+                            <img class="service-img" src="./assets/services/Icon-1.png" alt="service-icon">
+                            <span class="service-icon-desc">Nibh viverra</span>
+                        </div>
+                        <div class="service-icon">
+                            <img class="service-img" src="./assets/services/Icon-2.png" alt="service-icon">
+                            <span class="service-icon-desc">Cursus amet</span>
+                        </div>
+                        <div class="service-icon">
+                            <img class="service-img" src="./assets/services/Icon-3.png" alt="service-icon">
+                            <span class="service-icon-desc">Ipsum fermentum</span>
+                        </div>
+                        <div class="service-icon">
+                            <img class="service-img" src="./assets/services/Icon-4.png" alt="service-icon">
+                            <span class="service-icon-desc">Quisque euismod</span>
+                        </div>
+                        <div class="service-icon">
+                            <img class="service-img" src="./assets/services/Icon-5.png" alt="service-icon">
+                            <span class="service-icon-desc">Arcu vulputate</span>
+                        </div>
+                        <div class="service-icon">
+                            <img class="service-img" src="./assets/services/Icon-6.png" alt="service-icon">
+                            <span class="service-icon-desc">Cras auctor</span>
+                        </div>
+                    </div>
+                    <div class="service-btn-wrap">
+                        <button class="service-btn">Find Services</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="collection">
+        <div class="container">
+            <div class="collection-wrapper">
+                <div class="collection-content-wrapper">
+                    <div class="collection-left">
+                        <h4 class="collection-head common-heading">Best solutions for your demanding collection</h4>
+                        <p class="collection-desc common-desc">Odio vulputate cras vel lacinia turpis volutpat
+                            adipiscing.
+                            Sollicitudin at velit, blandit tempus nunc in.</p>
+                        <ul class="collection-list">
+                            <li class="col-list"><img class="right-tick" src="./assets/collection/right-tick.svg"
+                                    alt="right-tick-img">Interdum volutpat turpis malesuada ac turpis.</li>
+                            <li class="col-list"><img class="right-tick" src="./assets/collection/right-tick.svg"
+                                    alt="right-tick-img">Tortor ipsum pretium quis nunc.</li>
+                            <li class="col-list"><img class="right-tick" src="./assets/collection/right-tick.svg"
+                                    alt="right-tick-img">Vitae odio a id purus in.</li>
+                        </ul>
+                        <button class="collection-btn">Explore Xinder</button>
+                    </div>
+                    <div class="collection-right">
+                        <div class="right-collection-wrap">
+                            <img class="collection-img" src="./assets/collection/Col-img.png" alt="">
+                            <span class="play-btn"><img src="./assets/collection/play-btn-img.png" alt=""></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="gallery">
+        <div class="container">
+            <div class="gallery-content-wrapper ">
+
+                <div class="gallery-Swiper swiper">
+                    <div class="swiper-wrapper">
+
+                        <div class="gallery-slide swiper-slide">
+                            <img class="gal-img" src="./assets/gallery/Video.png" alt="">
+                            <div class="gallery-right-content">
+                                <p class="gal-first-desc">Marie Poirot, Co-Founder <span class="art-gal">Art-Gal</span>
+                                </p>
+                                <p class="gal-second-desc">“Id urna, nisl, ut quam. Diam suspendisse fringilla quam
+                                    arcu
+                                    mattis est velit in. Nibh
+                                    in purus sit convallis phasellus ut. Neque suspendisse a habitasse commodo.”</p>
+                            </div>
+                        </div>
+
+
+                        <div class="gallery-slide swiper-slide">
+                            <img class="gal-img" src="./assets/gallery/Video.png" alt="">
+                            <div class="gallery-right-content">
+                                <p class="gal-first-desc">Marie Poirot, Co-Founder <span class="art-gal">Art-Gal</span>
+                                </p>
+                                <p class="gal-second-desc">“Id urna, nisl, ut quam. Diam suspendisse fringilla quam
+                                    arcu
+                                    mattis est velit in. Nibh
+                                    in purus sit convallis phasellus ut. Neque suspendisse a habitasse commodo.”</p>
+                            </div>
+                        </div>
+
+                        <div class="gallery-slide swiper-slide">
+                            <img class="gal-img" src="./assets/gallery/Video.png" alt="">
+                            <div class="gallery-right-content">
+                                <p class="gal-first-desc">Marie Poirot, Co-Founder <span class="art-gal">Art-Gal</span>
+                                </p>
+                                <p class="gal-second-desc">“Id urna, nisl, ut quam. Diam suspendisse fringilla quam
+                                    arcu
+                                    mattis est velit in. Nibh
+                                    in purus sit convallis phasellus ut. Neque suspendisse a habitasse commodo.”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next"></div>
+                <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+    </section>
+
+    <section class="incredible">
+        <div class="container">
+            <div class="incredible-wrapper">
+                <div class="incredible-content-wrapper">
+
+                    <div class="incredible-left">
+                        <h5 class="common-heading">Be incredible</h5>
+                        <p class="common-desc">Nec ultricies eget placerat ultricies eleifend dignissim aliquet sapien.
+                            Senectus vestibulum, eget erat at et congue cursus pretium.</p>
+                        <button class="collection-btn">Explore Xinder</button>
+                    </div>
+
+                    <div class="incredible-right">
+
+
+
+
+                        <div class="incredible-Swiper swiper mas-card-wrap ">
+
+                            <div class="swiper-wrapper">
+
+                                <div class="swiper-slide">
+                                    <div class="mas-card promoted">
+                                        <img class="mas-card-img" src="./assets/masterpice/mas-1.png" alt="mas-img-1">
+                                        <span class="tag">Promoted</span>
+                                        <div class="mas-card-content-wrap">
+                                            <img class="profile-img" src="./assets/masterpice/profile/pf-1.png"
+                                                alt="profile-img">
+                                            <div class="mas-pf-conrtent-wrap">
+                                                <span class="mas-card-head">Flower Decorations</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mas-card promoted">
+                                        <img class="mas-card-img" src="./assets/masterpice/mas-2.png" alt="mas-img-2">
+                                        <span class="tag-2">Featured</span>
+                                        <div class="mas-card-content-wrap">
+                                            <img class="profile-img" src="./assets/masterpice/profile/pf-2.png"
+                                                alt="profile-img">
+                                            <div class="mas-pf-conrtent-wrap">
+                                                <span class="mas-card-head">Flower Decorations</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mas-card">
+                                        <img class="mas-card-img" src="./assets/masterpice/mas-3.png" alt="mas-img-3">
+                                        <div class="mas-card-content-wrap">
+                                            <img class="profile-img" src="./assets/masterpice/profile/pf-3.png"
+                                                alt="profile-img">
+                                            <div class="mas-pf-conrtent-wrap">
+                                                <span class="mas-card-head">Splash </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mas-card">
+                                        <img class="mas-card-img" src="./assets/masterpice/mas-4.png" alt="mas-img-4">
+                                        <div class="mas-card-content-wrap">
+                                            <img class="profile-img" src="./assets/masterpice/profile/pf-4.png"
+                                                alt="profile-img">
+                                            <div class="mas-pf-conrtent-wrap">
+                                                <span class="mas-card-head">Colorful Face</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide">
+                                    <div class="mas-card">
+                                        <img class="mas-card-img" src="./assets/masterpice/mas-1.png" alt="mas-img-5">
+                                        <div class="mas-card-content-wrap">
+                                            <img class="profile-img" src="./assets/masterpice/profile/pf-5.png"
+                                                alt="profile-img">
+                                            <div class="mas-pf-conrtent-wrap">
+                                                <span class="mas-card-head">Fence Spying</span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="event">
+        <div class="container">
+            <div class="event-sec-wrapper">
+                <div class="event-content-wrapper">
+                    <div class="art-heading-wrapper heading-wrapper">
+                        <h2 class="art-head coma-heading">Art events</h2>
+                        <span class="art-view-all">Explore All Events <img class="art-view-all-img"
+                                src="./assets/atr-categories/right-arrow.svg" alt=""></span>
+                    </div>
+                </div>
+
+
+                <div class="event-cards-wrapper">
+                    <div class="event-card">
+                        <div class="event-img-wrapper">
+                            <img class="event-card-img" src="./assets/event/event-img-1.png" alt="event-img">
+                            <button class="event-card-btn ev-card-btn-1">Featured</button>
+                        </div>
+                        <div class="event-card-content-wrapper">
+                            <span class="event-card-pf-head">Wild Horse Event</span>
+                            <p class="event-card-pf-desc">Egestas elit dui scelerisque ut eu purus aliquam vitae
+                                habitasse.</p>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-img-wrapper">
+                            <img class="event-card-img" src="./assets/event/event-img-2.png" alt="event-img">
+                            <button class="event-card-btn ev-card-btn-2">New</button>
+                        </div>
+                        <div class="event-card-content-wrapper">
+                            <span class="event-card-pf-head">Great Colors</span>
+                            <p class="event-card-pf-desc">Egestas elit dui scelerisque ut eu purus aliquam vitae
+                                habitasse.</p>
+                        </div>
+                    </div>
+                    <div class="event-card">
+                        <div class="event-img-wrapper">
+                            <img class="event-card-img" src="./assets/event/event-img-3.png" alt="event-img">
+                            <button class="event-card-btn ev-card-btn-3">Coming Soon</button>
+                        </div>
+                        <div class="event-card-content-wrapper">
+                            <span class="event-card-pf-head">Happy Fathers Day</span>
+                            <p class="event-card-pf-desc">Egestas elit dui scelerisque ut eu purus aliquam vitae
+                                habitasse.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="masterpice">
+        <div class="container">
+            <div class="masterpiece-sec-wrapper">
+                <div class="masterpiece-content-wrapper">
+
+                    <div class="left-master">
+                        <h6 class="master-heading">Add more masterpieces to your growing collection</h6>
+                        <button class="masterpiece-btn">Join Now</button>
+                    </div>
+                    <div class="right-master">
+                        <img class="masterpiece-img" src="./assets/masterpiece/masterpiece-sec-img.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer-sec">
+        <div class="container">
+            <div class="footer-sec-wrapper">
+                <div class="footer-content-wrapper">
+
+                    <div class="footer-list-wrapper">
+
+                        <ul class="footer-lists">
+                            <div class="list-heading-wrapper">
+                                <img class="foooter-list-img" src="./assets/footer/list/footer-list-img-1.png"
+                                    alt="list-img-1">
+                                <span class="footer-list-heading">Categories</span>
+                            </div>
+                            <li class="footer-li"><a class="list footer-underline" href="#">User Interface</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">User Experience</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Digital Media</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Lifestyle</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Programming</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Animation</a></li>
+                        </ul>
+
+                        <ul class="footer-lists">
+                            <div class="list-heading-wrapper">
+                                <img class="foooter-list-img" src="./assets/footer/list/footer-list-img-2.png"
+                                    alt="list-img-2">
+                                <span class="footer-list-heading">Product</span>
+                            </div>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Pricing</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Overview</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Browse</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Accessibility</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Five</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Changelog</a></li>
+                        </ul>
+
+                        <ul class="footer-lists">
+                            <div class="list-heading-wrapper">
+                                <img class="foooter-list-img" src="./assets/footer/list/footer-list-img-3.png"
+                                    alt="list-img-3">
+                                <span class="footer-list-heading">Solutions</span>
+                            </div>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Brainstorming</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Ideation</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Wireframing</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Research</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Design</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Concept</a></li>
+                        </ul>
+
+                        <ul class="footer-lists">
+                            <div class="list-heading-wrapper">
+                                <img class="foooter-list-img" src="./assets/footer/list/footer-list-img-4.png"
+                                    alt="list-img-4">
+                                <span class="footer-list-heading">Resources</span>
+                            </div>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Help Center</a> </li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Blog</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Tutorials</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">FAQs</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Community</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Events</a></li>
+                        </ul>
+
+                        <ul class="footer-lists">
+                            <div class="list-heading-wrapper">
+                                <img class="foooter-list-img" src="./assets/footer/list/footer-list-img-5.png"
+                                    alt="list-img-5">
+                                <span class="footer-list-heading">Support</span>
+                            </div>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Contact Us</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Developers</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Documentation</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Integrations</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Reports</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Webinar</a></li>
+                        </ul>
+
+                        <ul class="footer-lists">
+                            <div class="list-heading-wrapper">
+                                <img class="foooter-list-img" src="./assets/footer/list/footer-list-img-6.png"
+                                    alt="list-img-6">
+                                <span class="footer-list-heading">Company</span>
+                            </div>
+                            <li class="footer-li"><a class="list footer-underline" href="#">About</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Press</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Events</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Careers</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Customers</a></li>
+                            <li class="footer-li"><a class="list footer-underline" href="#">Partners</a></li>
+                        </ul>
+
+                    </div>
+                    <div class="social-wrapper">
+                        <div class="social-content-wrap">
+                            <span class="copy-right">@ 2023 Xinder, Inc. All rights reserved.</span>
+                            <div class="social-icon">
+
+                                <a href="#"><i class='bx bxl-youtube'></i></a>
+                                <a href="#"><i class='bx bxl-facebook'></i></a>
+                                <a href="#"><i class='bx bxl-twitter'></i></a>
+                                <a href="#"><i class='bx bxl-instagram'></i></a>
+                                <a href="#"><i class='bx bxl-linkedin'></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer-bottom-content">
+                        <div class="ft-btm-content">
+                            <span class="btm-content">In sed posuere sed ullamcorper feugiat. Lacinia elit neque, ipsum,
+                                non. Tellus mattis
+                                enim volutpat habitasse. Semper posuere lectus consectetur aliquam et ullamcorper.
+                                Dictumst aenean justo fames diam eget volutpat vestibulum elit. Blandit aliquet bibendum
+                                pellentesque turpis id penatibus faucibus id nunc. Aenean rhoncus, erat pellentesque eu.
+                                Quis morbi condimentum phasellus in ultricies eu amet.</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="./js/swiper.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
